@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans",sans-serif;
+}
+
+body{
+  background-color: #52ada2;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-posts{
+  width: min(1200px, 100%);
+  padding: 30px 30px 50px 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.post{
+  width: calc(33% - 10px);
+  overflow: hidden;
+}
+
+.post-img{
+  width: 100%;
+  border-radius: 6px;
+  transition: .3s linear;
+}
+
+.post-content{
+  background-color: #ffffffdd;
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 6px;
+  transform: translateY(-20px);
+  transition: .3s linear;
+  text-align: center;
+}
+
+.post-content h3{
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.post:hover .post-img{
+  transform: translateY(20px);
+}
+
+.box{
+  position: absolute;
+  top: 105%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box span{
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-bottom: 2px solid #7b3638;
+  border-right: 2px solid  #7b3638;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 3s infinite;
+}
+
+.box span:nth-child(2){
+  animation-delay: -0.2s;
+  ;
+}
+
+.box span:nth-child(3){
+  animation-delay: -0.4s;
+}
+
+@keyframes animate{
+  0%{
+      opacity: 0;
+      transform: rotate(45deg) translate(-20px, -20px)
+  }
+
+  50%{
+      opacity: 1;
+  }
+  100%{
+      opacity: 0;
+      transform: rotate(45deg) translate(20px, 20px)
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .blog-posts{
+    justify-content: center;
+  }
+  .post{
+    width: min(600px, 100%);
+  }
+}

@@ -1,0 +1,722 @@
+html,body{
+    background-color: var(--pink-01);
+    font-family: 'Source Sans Pro', sans-serif;
+    overflow-x: hidden !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+*{
+    text-decoration: none;
+}
+
+/*===== Colores =====*/
+:root{
+    --dark-color: #7b3638;
+    --first-color: #e54b49;
+    --second-color: #ee693f;
+    --white-color: #faebd6;
+    --text-color: #739f3d;
+    --pink-01 : #fef3e2;
+    --pink-02 : #ff6348;
+  }
+
+/* landing page */
+.landing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw 0 10vw;
+    height: 100vh;
+}
+
+.landingText h1{
+    font-size: 4vw;
+    margin: 0 !important;
+}
+
+.landingText h3{
+    margin: 6px !important;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.landingImage img{
+    margin-top: 5rem;
+    width: 35vw;
+    border-bottom: 2px solid var(--dark-color);
+    border-right: 2px solid var(--dark-color);
+    box-shadow: 5px 5px #000;
+}
+
+/* INFO SECTION 1 */
+.infoSection1{
+    height: 10rem;
+}
+
+.infoHeader1{
+    text-align: center;
+}
+
+.infoHeader1 p{
+    text-align: justify;
+    padding-right: 40px;
+    padding-left: 35px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.text{
+    font-size: 20px;
+}
+
+.infoImg img{
+    width: 30vw;
+    margin-right: 20px;
+}
+
+.banner .bannerImg img{
+    width: 35vw;
+}
+
+
+/* ABOUT */
+.about{
+    margin-top: 100px;
+    height: 1100px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about2{
+    margin-top: 120px;
+    height: 800px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.aboutText{
+    position: relative;
+    padding: 0 50px;
+    height: inherit;
+}
+
+.aboutText2{
+    position: relative;
+    padding: 0 50px;
+    height: inherit;
+}
+
+.aboutText h1{
+    position: relative;
+    margin-right: 10rem;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.aboutText2 h1{
+    position: relative;
+    margin-right: 3rem;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.aboutText .judulTengah{
+    position: relative;
+    left: 30px;
+    font-size: 20px;
+    color: var(--first-color);
+}
+
+.aboutText1 .judulTengah{
+    position: relative;
+    left: 30px;
+    font-size: 20px;
+    color: var(--first-color);
+}
+
+.aboutText2 .judulTengah2{
+    position: relative;
+    left: 70px;
+    font-size: 20px;
+    color: var(--first-color);
+}
+
+.aboutText img{
+    width: 42vw;
+    position: absolute;
+    top: 130px;
+    left: 5px;
+}
+
+.aboutText1 img{
+    width: 20vw;
+    position: absolute;
+    top: 300px;
+    left: 5px;
+}
+
+.aboutList{
+    width: 52%;
+}
+
+.aboutList .judul{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.aboutList2{
+    margin-bottom: 90px;
+    width: 61%;
+}
+
+.aboutList2 .judul2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+ol{
+    list-style: none;
+    color: var(--text-color);
+}
+
+ol li{
+    font-size: 34px;
+    position: relative;
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--second-color);
+}
+
+li p{
+    font-size: 18px;
+    color: var(--first-color);
+    padding-left: 60px;
+    line-height: 30px;
+    opacity: 1;
+}
+
+li span{
+    position: absolute;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+ul{
+    list-style: none;
+    color: var(--dark-color);
+}
+
+ul li{
+    font-size: 20px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+
+/* INFO SECTION */
+.infoSection{
+    height: 600px;
+}
+
+.infoSection .text{
+    color: var(--dark-color);
+    font-size: 20px;
+    padding-right: 40px;
+    padding-left: 35px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.infoHeader{
+    text-align: center;
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+
+.infoCards1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0 40px 0;
+}
+
+.infoCards2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0 40px 0;
+}
+
+.infoCards1 .card{
+    position: relative;
+    height: 325px;
+    width: 350px;
+    background: white;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 00), 0 10px 10px rgba(0, 0, 0, 00);
+}
+
+.infoCards2 .card{
+    position: relative;
+    height: 325px;
+    width: 350px;
+    background: white;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 00), 0 10px 10px rgba(0, 0, 0, 00);
+}
+
+.infoCards1 .one .cardOneImg {
+    width: 120px;
+    position: absolute;
+    top: 90px;
+    right: -15px;
+}
+
+.infoCards1 .two .cardTwoImg {
+    width: 90px;
+    position: absolute;
+    top: 70px;
+    right: -20px;
+}
+
+.infoCards1 .three .cardThreeImg {
+    width: 100px;
+    position: absolute;
+    top: 58px;
+    right: -20px;
+}
+
+.infoCards2 .four .cardFourImg {
+    width: 148px;
+    position: absolute;
+    top: 70px;
+    left: 230px;
+}
+
+.infoCards2 .five .cardFiveImg {
+    width: 140px;
+    position: absolute;
+    top: 70px;
+    left: 230px;
+}
+
+.infoCards2 .six .cardSixImg {
+    width: 200px;
+    position: absolute;
+    top: 110px;
+    left: 170px;
+}
+
+.cardbgone{
+    height: 150px;
+    background-color:  var(--second-color);
+    background-image: url("../img/Literasi/dalam/gmbr1.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardbgtwo{
+    height: 150px;
+    background-color:  var(--second-color);
+    background-image: url("../img/Literasi/dalam/gmbr2.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgb(196, 199, 35);  */
+}
+
+.cardbgthree{
+    height: 150px;
+    background-color:  var(--second-color);
+    background-image: url("../img/Literasi/dalam/gmbr3.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardbgfour{
+    height: 150px;
+    background-color:  var(--second-color);
+    background-image: url("../img/Literasi/dalam/gmbr4.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardbgfive{
+    height: 150px;
+    background-color:  var(--second-color);
+    background-image: url("../img/Literasi/dalam/gmbr5.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardbgsix{
+    height: 150px;
+    background-color:  var(--second-color);
+    background-image: url("../img/Literasi/dalam/gmbr6.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardContent{
+    padding: 0 20px;
+}   
+
+.cardContent h3{
+    font-weight: 600;
+}
+
+.cardContent p{
+    line-height: 20px;
+    opacity: 0.5;
+    color: black;
+    font-size: 15px;
+}
+
+/* .cardContent .cardBtn {
+    position: absolute;
+    right: 20px;
+    padding: 10px;
+    background-color: wheat;
+    width: 25px;
+    height: 20px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.2s;
+}
+
+.cardContent .cardBtn {
+   background-color: #92adb9;
+}
+
+
+.cardContent .cardBtn .cardIcon{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 16px;
+} */
+
+
+/* BANNER */
+.banner{
+    margin-top: 100px;
+    height: 620px;
+    background-color: wheat;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bannerC{
+    margin-top: 100px;
+    height: 800px;
+    background-color: wheat;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bannerPi{
+    margin-top: 100px;
+    height: 860px;
+    background-color: wheat;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.banner2{
+    margin-top: 100px;
+    height: 300px;
+    background-color: wheat;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bannerTest h1{
+    font-size: 3vw;
+    color: var(--second-color);
+    font-weight: 600;
+}
+
+.bannerTest .textC{
+    font-size: 18px;
+}
+
+.bannerTest img{
+    width: 5vw;
+    margin-right: 20px;
+}
+
+.bannerImg img{
+    width: 30vw;
+}
+
+.bannerImg2 img{
+    width: 25vw;
+}
+
+
+/*BUTTONS*/
+.button{
+    display: inline-block;
+    background-color: var(--second-color);
+    color: #fff;
+    padding: .75rem 2.5rem;
+    font-weight: var(--font-semi);
+    border-radius: .5rem;
+    margin-left: 35rem;
+  }
+.button:hover{
+    box-shadow: 0 10px 36px rgba(0,0,0,.15);
+}
+
+
+/* RESPONSIVE */
+@media only screen and (max-width: 600px){
+
+    /* landing page */
+    .landing{
+        flex-direction: column-reverse;
+        height: 750px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .landingText h1{
+        font-size: 4vw;
+        margin: o !important;
+    }
+
+    .landingText h2{
+        font-size: 16px;
+    }
+
+    .landingText .btn{
+        margin: 0 auto;
+    }
+    
+    .landingText .btn a{
+        font-size: 3vw;
+    }
+
+    .landingImage img{
+        width: 52vw;
+        margin-bottom: 20px;
+    }
+
+
+    /* ABOUT */
+    .about{
+        height: auto;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about2{
+        height: auto;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutText{
+        padding: 0 50px;
+        height: 100px;
+    }
+
+    .aboutText h1{
+        left:  75px;
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .aboutText img{
+        width: 25vw;
+        top: 10px;
+        left: -2px;
+    }
+
+    .aboutList{
+        width: 75%;
+    }
+
+    .aboutList .judul{
+        font-size: 24px;
+    }
+
+    .aboutList2 .judul2{
+        font-size: 22px;
+        margin-bottom:40px;
+    }
+
+    ol li{
+        font-size: 26px;
+    }
+
+    ol .contoh li{
+        font-size: 16px;
+    }
+
+    li p{
+        font-size: 14px;
+    }
+
+    .infoSection{
+        height: auto;
+    }
+
+    .infoHeader{
+        text-align: center;
+        margin: 40px 0;
+    }
+
+    .infoSection1{
+        height: auto;
+    }
+
+    .infoHeader1{
+        text-align: center;
+        margin: 40px 0;
+    }
+
+    .infoHeader1 h1{
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .infoHeader1 p{
+        margin-bottom: 70px;
+        font-size: 15px;
+    }
+
+    .infoSection .text{
+        margin-bottom: 50px;
+        font-size: 15px;
+    }
+
+    .infoCards1{
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .infoCards2{
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .infoCards1 .card{
+        margin-bottom: 60px;
+    }
+
+    .infoCards2 .card{
+        margin-bottom: 60px;
+    }
+
+    .infoCards1 .card .cardContent{
+        font-size: 14px;
+    }
+
+    .infoCards2 .card .cardContent{
+        font-size: 14px;
+    }
+
+    .infoImg img{
+        width: 25vw;
+        top: 10px;
+       right: -30px;
+    }
+
+    .banner{
+        height: auto;
+        flex-direction: column-reverse;
+        padding: 50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .bannerC{
+        height: auto;
+        flex-direction: column-reverse;
+        padding: 50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .banner h1{
+        font-size: 20px;
+    }
+
+    .bannerTest h1{
+        font-size: 28px;
+    }
+
+    .bannerTest .text{
+        font-size: 20px;
+    }
+
+    .bannerTest .textC{
+        font-size: 16px;
+    }
+
+    .bannerTest img{
+        width: 20vw;
+    }
+
+     .banner .bannerImg img{
+        width: 47vw;
+    }
+
+    .banner .bannerImg2 img{
+        width: 40vw;
+    }
+
+    .footer{
+        padding-bottom: 40px;
+    }
+
+    .button{
+        padding: 0.5rem 1.5rem;
+        margin-left: 12rem;
+    }
+
+}
